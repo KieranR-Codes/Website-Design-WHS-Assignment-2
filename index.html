@@ -1,0 +1,152 @@
+<DOCTYPE xhtml>
+<html lang="en">
+<head>
+<title>Blog</title>
+<meta charset="UTF-8">
+<meta charset="description" content="What ever the site is about">
+<meta charset="keywords" content="descriptive words that end user would type in the browser">
+<meta charset="author" content="Person or Company that created the site">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+<!-- This website was created by: 
+	Author: Kieran Rose
+	Date: 11/14/2024
+	Project: Blog Page
+-->
+
+<style>
+
+*{
+	box-sizing: border-box;
+ }
+
+/* Add Gray Background Color with Some Padding */
+	body{
+	font-family: Verdana;
+	padding: 20px;
+	background-image: linear-gradient(#111111, #444444);
+	color: #333333;
+}
+
+/* Header/Blog Title */
+	.header{
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: #44dddd;
+}
+
+/* Create two unequal columns that float next to each other */
+
+	/* Left Column */
+		.leftcolumn {
+		float: left;
+		width: 75%;
+	
+	}
+	
+	/* Right Column */
+		.rightcolumn {
+		float: right;
+		width: 25%;
+		padding-left: 20px;
+	
+	}
+
+/* Fake Image */
+	.fakeimg {
+	background-color: #44dddd;
+	width: 100%;
+	padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+	.card{
+	background-color: #dddddd;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Clear float after the columns */
+	.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+	.footer {
+	padding: 20px;
+	text-align: center;
+	background: #dddddd;
+	margin-top: 20px;
+}
+
+/* Responsive Layout - when the screen is less than 800px, make 2 columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+		.leftcolumn, .rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<div class="header">
+	<h2>Blog Name</h2>
+
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<h2>TITLE HEADING</h2>
+			<h5>Title description, Nov. 14th, 2024</h5>
+			<br>
+			<div class="fakeimg" style="height: 200px;">
+			Image</div>
+
+			<p>Thursday</p>
+			<p>This year I'm going to Paris. This year I'm going to Paris. This year I'm going to Paris. This year I'm going to Paris. This year I'm going to Paris. This year I'm going to Paris. This year I'm going to Paris. This year I'm going to Paris. This year I'm going to Paris. This year I'm going to Paris.  </p>
+
+		</div>
+		<div class="card">
+			<h2>TITLE HEADING</h2>
+			<h5>Thanksgiving Holiday, Nov. 28th, 2024</h5>
+			<br>
+
+			<p>Thursday</p>
+			<p>This year I'm going to have Jello for turkey day. This year I'm going to have Jello for turkey day. This year I'm going to have Jello for turkey day. This year I'm going to have Jello for turkey day. This year I'm going to have Jello for turkey day. </p>
+
+		</div>
+	</div>
+
+
+	<div class="rightcolumn">
+		<div class="card">
+
+			<h2>About Thanksgiving</h2>
+			<p>Yum, Yum, Yum. Yum, Yum, Yum. Yum, Yum, Yum. Yum, Yum, Yum. Yum, Yum, Yum. Yum, Yum, Yum. Yum, Yum, Yum. Yum, Yum, Yum. Yum, Yum, Yum. </p>
+		</div>
+		<div class="card">
+			<h3>Popular Food</h3>
+			<h3>Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me. Follow Me.</h3>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<h2>Footer</h2>
+</div>
+
+</body>
+
+
+
+</html>
